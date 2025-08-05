@@ -1,0 +1,20 @@
+# PaddleOCR Windows 11 Setup - Optimized for Railway Deployment
+# Core PaddleOCR package (includes PaddlePaddle)
+paddleocr>=3.1.0
+
+# Image processing
+Pillow>=9.5.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Text processing and utilities
+PyYAML>=6.0
+requests>=2.28.0
+
+# Optional: For better performance on Windows
+# Uncomment if you have issues with default installation
+# paddlepaddle-gpu  # Only if you have NVIDIA GPU with CUDA
+
+# Development utilities (optional)
+pytest>=7.0.0  # For testing
+black>=23.0.0  # Code formatting

@@ -1,0 +1,72 @@
+# PaddleOCR & Windows .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PaddleOCR model downloads (large files)
+.paddleocr/
+.paddlex/
+paddle_models/
+inference_models/
+
+# Output files (generated results)
+output/
+results/
+*.json
+
+# Keep requirements.txt but ignore other txt files
+*.txt
+!requirements.txt
+
+# Test images (optional - uncomment if you don't want to commit images)
+# tables/
+# *.png
+# *.jpg
+# *.jpeg
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# macOS (in case you switch back)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Model cache
+model_cache/
+cached_models/
